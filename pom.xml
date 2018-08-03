@@ -11,5 +11,6 @@
     <modules>
         <module>springmvc</module>
         <module>twitter</module>
+        <module>base</module>
     </modules>
 </project>
