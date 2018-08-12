@@ -12,5 +12,8 @@
         <module>springmvc</module>
         <module>twitter</module>
         <module>base</module>
+        <module>threadPool</module>
+        <module>rpc</module>
+        <module>zkafka</module>
     </modules>
 </project>
