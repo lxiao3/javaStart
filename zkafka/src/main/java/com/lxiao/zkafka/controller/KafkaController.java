@@ -24,7 +24,7 @@ public class KafkaController {
         try {
             String message = request.getParameter("message");
             logger.info("kafka的消息={}", message);
-            kafkaTemplate.send("test", "key", message);
+            kafkaTemplate.send("test_w", "key", message);
             logger.info("发送kafka成功.");
             return "发送kafka成功";
         } catch (Exception e) {

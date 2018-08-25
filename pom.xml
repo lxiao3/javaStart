@@ -15,5 +15,6 @@
         <module>threadPool</module>
         <module>rpc</module>
         <module>zkafka</module>
+        <module>leetCode</module>
     </modules>
 </project>

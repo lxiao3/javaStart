@@ -66,7 +66,7 @@ public class Consumer {
     }
 
 
-    @KafkaListener(topics = {"test"})
+    @KafkaListener(topics = {"test_w"})
     public void listen(ConsumerRecord<?, ?> record) {
         logger.info("kafka的key: " + record.key());
         logger.info("kafka的value: " + record.value().toString());
